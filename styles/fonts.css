@@ -1,0 +1,59 @@
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat Thin';
+  src: url("../fonts/Montserrat/Montserrat-Thin.otf"); }
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url("../fonts/Montserrat/Montserrat-Light.otf"); }
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/Montserrat/Montserrat-Regular.otf"); }
+
+@font-face {
+  font-family: 'Montserrat Italic';
+  src: url("../fonts/Montserrat/Montserrat-Italic.otf"); }
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/Montserrat/Montserrat-Bold.otf"); }
+
+@font-face {
+  font-family: 'Montserrat Bold Italic';
+  src: url("../fonts/Montserrat/Montserrat-Bold-Italic.otf"); }
+
+/* Playfair Display */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("../fonts/Playfair-Display/Playfair-Display.otf"); }
+
+@font-face {
+  font-family: 'Playfair Display Italic';
+  src: url("../fonts/Playfair-Display/Playfair-Display-Italic.otf"); }
+
+@font-face {
+  font-family: 'Playfair Display Black';
+  src: url("../fonts/Playfair-Display/Playfair-Display-Bold.otf"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fa-solid-900.eot");
+  src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+	   url("../fonts/fa-solid-900.woff2") format("woff2"),
+	   url("../fonts/fa-solid-900.woff") format("woff"),
+	   url("../fonts/fa-solid-900.ttf") format("truetype"),
+     url("../fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+     
+/* Assignments */
+body { font-family: 'Montserrat Light' !important; }
+h1, h2, h3 { font-family: 'Playfair Display Black'; }
+h4, h5, p, li { font-family: 'Montserrat Light'; }
+
+.f-montserrat-thin  { font-family: 'Montserrat Thin'; }
+.f-playfair-display { font-family: 'Playfair Display Black'; text-transform: none; }
+
+article h4,
+article h5 { font-family: 'Playfair Display Black'; text-transform: none; }

@@ -1,0 +1,137 @@
+/* 320  */
+@media (min-width: 320px) {	
+	.for-mobile { display: block !important; }
+	.for-screen { display: none !important; }
+	
+	h1 { font-size: 46px; line-height: 54px; margin-bottom: 20px; }
+	h2 { font-size: 38px; line-height: 46px; margin-bottom: 20px; }
+	h3 { font-size: 30px; line-height: 38px; margin-bottom: 10px; }
+	h4 { font-size: 22px; line-height: 30px; margin-bottom: 10px; }
+	h5 { font-size: 16px; line-height: 24px; }
+	p  { font-size: 14px; line-height: 22px; margin-bottom: 10px; }
+	li { font-size: 14px; line-height: 22px; }
+
+	textarea,
+	.form-control { font-size: 14px; }
+	.btn { white-space: normal; height: auto; }
+	.btn.btn-lg { height: auto; white-space: normal; padding: 23px 48px; }
+	
+	.fold { padding-top: 50px; padding-bottom: 50px; }
+	.fold-main .heading { margin-top: 50px; }
+	.fold-projects:before { width: 100%; }
+	.fold-clients { text-align: left; }
+
+	.floaters { bottom: 20px; }
+	.floaters.show { right: 20px; }
+
+	footer { padding-top: 50px; padding-bottom: 0; }
+	footer .list-links { flex: 0 0 50%; max-width: 50%; }
+
+	.floor li { margin: 0 20px; }
+	.floor .column-copyright { text-align: center; }
+	.floor .column-technical { text-align: center; }
+
+	.banner { text-align: center; }
+	.content { padding-top: 50px; padding-bottom: 50px; }
+	.content.map:before { width: 100%; }
+
+	.our-work .col-left,
+	.contact-form .col-left { text-align: left; }
+
+	.timeline .btn { width: 160px; }
+	.timeline .event .media img { width: 100px; }
+	.timeline .event:nth-child(even) .media { text-align: left; flex-direction: row; }
+	.timeline .event:nth-child(even) .media img { margin-left: 0; margin-right: 20px; }
+
+	#widget_collections { position: static; }
+	.grid-item { width: 100%; }
+	.product-details .media { display: block; text-align: center; }
+}
+
+/* 480  */
+@media (min-width: 480px) {
+	.grid-item { width: 50%; }
+}
+
+/* 560  */
+@media (min-width: 560px) {
+	.grid-item { width: 33.33%; }
+}
+
+/* 768 */
+@media (min-width: 768px) {	
+	.for-mobile { display: none !important; }
+	.for-screen { display: block !important; }
+	
+	h1 { font-size: 48px; line-height: 56px; margin-bottom: 30px; }
+	h2 { font-size: 40px; line-height: 48px; margin-bottom: 30px; }
+	h3 { font-size: 32px; line-height: 40px; margin-bottom: 20px; }
+	h4 { font-size: 24px; line-height: 32px; margin-bottom: 20px; }
+	h5 { font-size: 20px; line-height: 28px; }
+	p  { font-size: 16px; line-height: 24px; margin-bottom: 20px; }
+	li { font-size: 16px; line-height: 24px; }
+	
+	.fold { padding-top: 150px; padding-bottom: 150px; }
+	.fold-main .heading { margin-top: 0; }
+	.fold-projects:before { width: 40%; }
+	.fold-clients { text-align: right; }
+
+	header .for-mobile { display: block; }
+	header .for-desktop { display: none; }
+	
+	.floaters { bottom: 30px; }
+	.floaters.show { right: 30px; }
+
+	textarea,
+	.form-control { font-size: 16px; }
+	.btn { white-space: nowrap; height: 50px; }
+	.btn.btn-lg { height: 70px; white-space: nowrap; }
+
+	footer { padding-top: 100px; padding-bottom: 50px; }
+
+	.floor li { margin: 0 0 0 30px; }
+	.floor .column-copyright { text-align: left; }
+	.floor .column-technical { text-align: right; }
+
+	.banner { text-align: left; }
+	.content { padding-top: 100px; padding-bottom: 100px; }
+	.content.map:before { width: 50%; }
+
+	.our-work .col-left,
+	.contact-form .col-left { text-align: right; }
+
+	.timeline .btn { width: 100%; }
+	.timeline .event .media img { width: 140px; }
+	.timeline .event:nth-child(even) .media { text-align: right; flex-direction: row-reverse; }
+	.timeline .event:nth-child(even) .media img { margin-left: 20px; margin-right: 0; }
+
+	#widget_collections { position: absolute; }
+	.grid-item { width: 20%; }
+	.product-details .media { display: flex; text-align: left; }
+}
+
+/* 960 */
+@media (min-width: 960px) {
+}
+
+/* 1024 */
+@media (min-width: 1024px) {
+	header .for-mobile { display: none; }
+	header .for-screen { display: block; }
+}
+
+/* 1100 */
+@media (min-width: 1100px) {
+}
+
+/* 1260 */
+@media (min-width: 1260px) {
+}
+
+/* 1440 */
+@media (min-width: 1440px) {
+}
+
+/* Max: 768  */
+@media (max-width: 768px) {		
+}
