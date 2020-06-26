@@ -282,13 +282,27 @@ footer .list-links li:hover { margin-left: -25px; }
 .deck-projects .card-body:before { left: 0; bottom: 0; background-color: #0A6B6D; transition: all 0.3s; }
 .deck-projects .card:hover .card-body:before { width: 100%; }
 
+/* Deck: Services */
+.deck-services .card { transition: all 0.3s; top: 0; }
+.deck-services .card .icon { width: 160px; height: 160px; position: relative; display: flex; justify-content: center; margin: 0 auto; }
+.deck-services .card .icon svg { max-height: 80px; max-width: 80px; align-self: center; fill: #FFFFFF; position: relative; }
+.deck-services .card .icon:before { position: absolute; content: ""; width: 100%; height: 100%; }
+.deck-services .card .icon:before { transform: rotate(0); background-color: #D6C9AD; border-radius: 100px; transition: all 0.3s; }
+.deck-services .card-body { background-color: #FFFFFF; padding-top: 100px; margin-top: -75px; min-height: 360px; text-align: center; }
+.deck-services .card-body { color: #575353; transition: all 0.3s; border: 1px solid #D6C9AD;  }
+.deck-services .card:hover { top: -10px; }
+.deck-services .card:hover .icon:before { border-radius: 0; transform: rotate(-15deg); }
+.deck-services .card:hover .card-body { background-color: #575353; color: #FFFFFF; }
+
 /* Content */
 .content { padding: 100px 0; overflow-x: hidden; }
 .content section { padding-bottom: 50px; }
 
 /* About Page: Our Process */
-body.about .our-process { padding-left: 15px; padding-right: 15px; }
-body.about .our-process .badge { max-width: 120px; }
+.our-process { padding-left: 15px; padding-right: 15px; }
+.our-process .badge { height: 120px; width: 120px;}
+.our-process .card-body { transition: all 0.3s; }
+.our-process .card-body:hover { background-color: #d6c9ad; }
 
 /* Timeline */
 .timeline .heading { display: inline-block; text-align: center; }
