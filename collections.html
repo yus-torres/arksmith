@@ -139,7 +139,7 @@
         <!-- /.banner -->
         
         <!-- .content -->
-        <div class="content">
+        <div class="content shaded">
             <!-- .container -->
             <div class="container">
                 <!-- .row -->
@@ -147,7 +147,7 @@
                     <!--  -->
                     <div class="col-md-3">
 						<!-- .sidebar -->
-						<div class="sidebar sr-right">
+						<div class="sidebar">
 							<!-- .widget -->
 							<div id="widget_collections" class="widget widget-secondary">
 								<h5 class="mb-4">Collections</h5>
@@ -173,10 +173,10 @@
                     <!-- / -->
 
                     <!--  -->
-                    <div class="col-md-9 sr-left">
+                    <div class="col-md-9 sr-left main-board">
 						<!-- .collection-emerge -->
                         <div id="anchor_emerge" class="anchor"></div>
-                        <section class="collection-emerge sr-up">
+                        <section class="collection-emerge">
                             <!-- .heading -->
                             <div class="heading">
                                 <h2>Emerge</h2>
@@ -1217,13 +1217,6 @@
 		<script src="scripts/floating.js"></script>
 		<script src="scripts/isotope.pkgd.min.js"></script>
 		<script type="text/javascript">
-			// Floating Sidebar
-			floatingMenu.add('widget_collections', {
-				targetLeft: 15,
-				targetTop: 100,
-				snap: false  
-			});
-
 			// Isotope: Filtering
 			$grid = $('.grid').isotope({
 				// options
@@ -1233,6 +1226,13 @@
 					gutter: 20
 				}*/
 			});
+
+			// Floating Sidebar
+			floatingMenu.add('widget_collections', {
+				targetLeft: 15,
+				targetTop: 110,
+				snap: false  
+			}); 
 		</script>
 	</body>
 </html>

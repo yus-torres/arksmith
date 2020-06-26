@@ -331,6 +331,7 @@ body.about .our-process .badge { max-width: 120px; }
 
 /* Widgets */
 .widget { background-color: #000000; color: #FFFFFF; padding: 20px; margin-bottom: 30px; }
+.widget { transform: translate3d(0, 0, 0); will-change: position, transform; }
 
 .widget-primary { background-color: #0A6B6D; color: #FFFFFF; }
 .widget-primary .list-menu li a { border-color: #FFFFFF; color: #FFFFFF; }
@@ -404,7 +405,7 @@ body.about .our-process .badge { max-width: 120px; }
 .sidebar { position: relative; }
 
 /* Special Treatments */
-#widget_collections { position: absolute; transition: ease-out 0.3s; }
+#widget_collections { position: absolute; transition: ease-out 0.2s; }
 
 /* Article */
 article { margin-bottom: 30px; }
